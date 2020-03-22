@@ -1,0 +1,121 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+body{
+	font-family: 'Dancing Script', cursive;
+}
+
+a {
+  color:#009688;
+}
+
+#l2{
+  float:left
+}
+
+.social-icons li {
+  font-size: 1.2em;
+  padding: 0.5em;
+}
+
+#l2 li{
+  display: inline;
+}
+
+#l2{
+  margin-left:50px;
+  margin-top:50px;
+}
+
+div.tooltip{
+  background: #009688;
+  padding: .5em;
+  border-radio: 4;
+  color: white;
+  font: courier;
+  float:left;
+  position: absolute;
+  top: 150px;
+  left: 220px;
+  
+}
+div.tooltip:before {
+  position:absolute;
+  bottom:34px;
+  content:"";
+  border-bottom: 10px solid #009688;
+  border-top: 10px solid transparent ;
+  border-right: 10px solid transparent ;
+  border-left: 10px solid transparent ;
+}
+
+
+/*Menu*/
+
+#pro{
+	width: 100%;
+	background-color: #ffab00;	
+}
+
+#navegador{
+width: 100%;
+margin-top: 2%;
+}
+
+
+#navegador ul{
+   list-style-type: none;
+   text-align: center;
+}
+#navegador li{
+   display: inline;
+   text-align: center;
+   margin: 0 10px 0 0;
+}
+#navegador li a {
+   padding: 2px 7px 2px 7px;
+   color: #666;
+   text-decoration: none;
+}
+#navegador li a:hover{
+   background-color: #333333;
+   color: #ffffff;
+}
+
+/*SEARCH*/
+.input-icono {
+  background-image: url('imagenes/lupa.png');
+  background-repeat: no-repeat;
+  background-position: 4px center;
+  background-size: 20px;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  padding-left: 28px;
+  height: 30px;
+  border-radius: 3px;
+}
+.input-icono input {
+  width: 100%;
+  font-size: 0.9em;
+  border: none;
+}
+
+
+/*Pantallas Adaptadas*/
+@media screen and (min-width: 901px){
+	#navegador ul{
+	width: 100%;
+	}
+}
+
+@media screen and (max-width: 900px){
+
+.imagenes{
+	width:50%;
+	height:50%;
+	margin-left: 25%;
+}
+}
+
+
+
